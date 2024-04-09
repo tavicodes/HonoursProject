@@ -1,2 +1,1 @@
-# HonoursProject
- 
+The code archive of my Honours Project "Designing and implementing an AI Director to control dynamic difficulty adjustment in a roguelike videogame". 
