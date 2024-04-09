@@ -1,0 +1,38 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 9999,
+                "file_path": "results\\GenerateClassValues2\\DirectorPPO\\DirectorPPO-9999.onnx",
+                "reward": 0.4718787632882595,
+                "creation_time": 1647181607.4668005,
+                "auxillary_file_paths": [
+                    "results\\GenerateClassValues2\\DirectorPPO\\DirectorPPO-9999.pt"
+                ]
+            },
+            {
+                "steps": 14572,
+                "file_path": "results\\GenerateClassValues2\\DirectorPPO\\DirectorPPO-14572.onnx",
+                "reward": 0.6350730831424395,
+                "creation_time": 1647181888.3958914,
+                "auxillary_file_paths": [
+                    "results\\GenerateClassValues2\\DirectorPPO\\DirectorPPO-14572.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 14572,
+            "file_path": "results\\GenerateClassValues2\\DirectorPPO.onnx",
+            "reward": 0.6350730831424395,
+            "creation_time": 1647181888.3958914,
+            "auxillary_file_paths": [
+                "results\\GenerateClassValues2\\DirectorPPO\\DirectorPPO-14572.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

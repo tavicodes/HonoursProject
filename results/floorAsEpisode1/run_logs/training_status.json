@@ -1,0 +1,65 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 69999,
+                "file_path": "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-69999.onnx",
+                "reward": 3.129953682422638,
+                "creation_time": 1647789129.6126366,
+                "auxillary_file_paths": [
+                    "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-69999.pt"
+                ]
+            },
+            {
+                "steps": 79994,
+                "file_path": "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-79994.onnx",
+                "reward": 3.5201862504084906,
+                "creation_time": 1647789747.559995,
+                "auxillary_file_paths": [
+                    "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-79994.pt"
+                ]
+            },
+            {
+                "steps": 89998,
+                "file_path": "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-89998.onnx",
+                "reward": 3.5716818067762586,
+                "creation_time": 1647790358.1733706,
+                "auxillary_file_paths": [
+                    "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-89998.pt"
+                ]
+            },
+            {
+                "steps": 99994,
+                "file_path": "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-99994.onnx",
+                "reward": 3.758174078805106,
+                "creation_time": 1647790963.365685,
+                "auxillary_file_paths": [
+                    "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-99994.pt"
+                ]
+            },
+            {
+                "steps": 100008,
+                "file_path": "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-100008.onnx",
+                "reward": 3.796490735274095,
+                "creation_time": 1647790963.5547273,
+                "auxillary_file_paths": [
+                    "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-100008.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 100008,
+            "file_path": "results\\floorAsEpisode1\\DirectorPPO.onnx",
+            "reward": 3.796490735274095,
+            "creation_time": 1647790963.5547273,
+            "auxillary_file_paths": [
+                "results\\floorAsEpisode1\\DirectorPPO\\DirectorPPO-100008.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

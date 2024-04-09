@@ -1,0 +1,65 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 6999,
+                "file_path": "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-6999.onnx",
+                "reward": 0.7045212589949369,
+                "creation_time": 1647027911.8867428,
+                "auxillary_file_paths": [
+                    "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-6999.pt"
+                ]
+            },
+            {
+                "steps": 7999,
+                "file_path": "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-7999.onnx",
+                "reward": 0.9133845353755382,
+                "creation_time": 1647028019.1319187,
+                "auxillary_file_paths": [
+                    "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-7999.pt"
+                ]
+            },
+            {
+                "steps": 8999,
+                "file_path": "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-8999.onnx",
+                "reward": 0.8852397453984324,
+                "creation_time": 1647028127.9410338,
+                "auxillary_file_paths": [
+                    "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-8999.pt"
+                ]
+            },
+            {
+                "steps": 9999,
+                "file_path": "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-9999.onnx",
+                "reward": 1.1408505578126227,
+                "creation_time": 1647028273.6918917,
+                "auxillary_file_paths": [
+                    "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-9999.pt"
+                ]
+            },
+            {
+                "steps": 10001,
+                "file_path": "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-10001.onnx",
+                "reward": 1.0622171191498637,
+                "creation_time": 1647028273.959885,
+                "auxillary_file_paths": [
+                    "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-10001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10001,
+            "file_path": "results\\SwarmUpdate\\DirectorPPO.onnx",
+            "reward": 1.0622171191498637,
+            "creation_time": 1647028273.959885,
+            "auxillary_file_paths": [
+                "results\\SwarmUpdate\\DirectorPPO\\DirectorPPO-10001.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

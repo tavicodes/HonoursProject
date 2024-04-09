@@ -1,0 +1,65 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 29999,
+                "file_path": "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-29999.onnx",
+                "reward": 2.014039050076754,
+                "creation_time": 1650314804.9127946,
+                "auxillary_file_paths": [
+                    "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-29999.pt"
+                ]
+            },
+            {
+                "steps": 39997,
+                "file_path": "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-39997.onnx",
+                "reward": 1.4111726880073547,
+                "creation_time": 1650315464.4100027,
+                "auxillary_file_paths": [
+                    "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-39997.pt"
+                ]
+            },
+            {
+                "steps": 49998,
+                "file_path": "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-49998.onnx",
+                "reward": 2.110797887811294,
+                "creation_time": 1650316149.37324,
+                "auxillary_file_paths": [
+                    "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-49998.pt"
+                ]
+            },
+            {
+                "steps": 59998,
+                "file_path": "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-59998.onnx",
+                "reward": 2.1470624450090767,
+                "creation_time": 1650316877.5020998,
+                "auxillary_file_paths": [
+                    "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-59998.pt"
+                ]
+            },
+            {
+                "steps": 60005,
+                "file_path": "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-60005.onnx",
+                "reward": 2.1547182939554514,
+                "creation_time": 1650316877.62913,
+                "auxillary_file_paths": [
+                    "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-60005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 60005,
+            "file_path": "results\\finalScoreOverhaul60k\\DirectorPPO.onnx",
+            "reward": 2.1547182939554514,
+            "creation_time": 1650316877.62913,
+            "auxillary_file_paths": [
+                "results\\finalScoreOverhaul60k\\DirectorPPO\\DirectorPPO-60005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

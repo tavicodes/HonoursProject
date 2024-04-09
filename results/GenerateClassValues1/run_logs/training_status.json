@@ -1,0 +1,65 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 6999,
+                "file_path": "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-6999.onnx",
+                "reward": 0.3231327847313525,
+                "creation_time": 1647180482.7957282,
+                "auxillary_file_paths": [
+                    "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-6999.pt"
+                ]
+            },
+            {
+                "steps": 7999,
+                "file_path": "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-7999.onnx",
+                "reward": 0.30491893649986473,
+                "creation_time": 1647180552.1775305,
+                "auxillary_file_paths": [
+                    "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-7999.pt"
+                ]
+            },
+            {
+                "steps": 8999,
+                "file_path": "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-8999.onnx",
+                "reward": 0.30320043739543034,
+                "creation_time": 1647180620.0551271,
+                "auxillary_file_paths": [
+                    "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-8999.pt"
+                ]
+            },
+            {
+                "steps": 9999,
+                "file_path": "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-9999.onnx",
+                "reward": 0.26409313455224037,
+                "creation_time": 1647180685.4930217,
+                "auxillary_file_paths": [
+                    "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-9999.pt"
+                ]
+            },
+            {
+                "steps": 10001,
+                "file_path": "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-10001.onnx",
+                "reward": 0.24849880021065474,
+                "creation_time": 1647180685.6202397,
+                "auxillary_file_paths": [
+                    "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-10001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10001,
+            "file_path": "results\\GenerateClassValues1\\DirectorPPO.onnx",
+            "reward": 0.24849880021065474,
+            "creation_time": 1647180685.6202397,
+            "auxillary_file_paths": [
+                "results\\GenerateClassValues1\\DirectorPPO\\DirectorPPO-10001.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 1999,
+                "file_path": "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-1999.onnx",
+                "reward": 2.4624970410809373,
+                "creation_time": 1647018097.7145011,
+                "auxillary_file_paths": [
+                    "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-1999.pt"
+                ]
+            },
+            {
+                "steps": 2999,
+                "file_path": "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-2999.onnx",
+                "reward": 4.062028390094638,
+                "creation_time": 1647018516.5600846,
+                "auxillary_file_paths": [
+                    "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-2999.pt"
+                ]
+            },
+            {
+                "steps": 3999,
+                "file_path": "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-3999.onnx",
+                "reward": 4.527064224566097,
+                "creation_time": 1647019054.8987544,
+                "auxillary_file_paths": [
+                    "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-3999.pt"
+                ]
+            },
+            {
+                "steps": 4999,
+                "file_path": "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-4999.onnx",
+                "reward": 6.337407793317523,
+                "creation_time": 1647019751.9562962,
+                "auxillary_file_paths": [
+                    "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-4999.pt"
+                ]
+            },
+            {
+                "steps": 5254,
+                "file_path": "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-5254.onnx",
+                "reward": 4.000753732453479,
+                "creation_time": 1647019965.4263568,
+                "auxillary_file_paths": [
+                    "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-5254.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5254,
+            "file_path": "results\\TestingRangedBug\\DirectorPPO.onnx",
+            "reward": 4.000753732453479,
+            "creation_time": 1647019965.4263568,
+            "auxillary_file_paths": [
+                "results\\TestingRangedBug\\DirectorPPO\\DirectorPPO-5254.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

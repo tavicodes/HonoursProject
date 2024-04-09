@@ -1,0 +1,29 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 1800169,
+                "file_path": "results\\firstDirectorRun\\DirectorPPO\\DirectorPPO-1800169.onnx",
+                "reward": 0.24258591341120855,
+                "creation_time": 1646749091.7468655,
+                "auxillary_file_paths": [
+                    "results\\firstDirectorRun\\DirectorPPO\\DirectorPPO-1800169.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1800169,
+            "file_path": "results\\firstDirectorRun\\DirectorPPO.onnx",
+            "reward": 0.24258591341120855,
+            "creation_time": 1646749091.7468655,
+            "auxillary_file_paths": [
+                "results\\firstDirectorRun\\DirectorPPO\\DirectorPPO-1800169.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

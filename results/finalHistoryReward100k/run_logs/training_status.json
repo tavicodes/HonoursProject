@@ -1,0 +1,38 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 9994,
+                "file_path": "results\\finalHistoryReward100k\\DirectorPPO\\DirectorPPO-9994.onnx",
+                "reward": 0.010738373706117273,
+                "creation_time": 1650293551.388292,
+                "auxillary_file_paths": [
+                    "results\\finalHistoryReward100k\\DirectorPPO\\DirectorPPO-9994.pt"
+                ]
+            },
+            {
+                "steps": 10534,
+                "file_path": "results\\finalHistoryReward100k\\DirectorPPO\\DirectorPPO-10534.onnx",
+                "reward": 0.009803240347257368,
+                "creation_time": 1650293581.958629,
+                "auxillary_file_paths": [
+                    "results\\finalHistoryReward100k\\DirectorPPO\\DirectorPPO-10534.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10534,
+            "file_path": "results\\finalHistoryReward100k\\DirectorPPO.onnx",
+            "reward": 0.009803240347257368,
+            "creation_time": 1650293581.958629,
+            "auxillary_file_paths": [
+                "results\\finalHistoryReward100k\\DirectorPPO\\DirectorPPO-10534.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

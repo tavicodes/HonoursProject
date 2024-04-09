@@ -1,0 +1,47 @@
+{
+    "DirectorPPO": {
+        "checkpoints": [
+            {
+                "steps": 999,
+                "file_path": "results\\RangedNerfRun1\\DirectorPPO\\DirectorPPO-999.onnx",
+                "reward": 0.48054350370710547,
+                "creation_time": 1647023928.4937363,
+                "auxillary_file_paths": [
+                    "results\\RangedNerfRun1\\DirectorPPO\\DirectorPPO-999.pt"
+                ]
+            },
+            {
+                "steps": 1999,
+                "file_path": "results\\RangedNerfRun1\\DirectorPPO\\DirectorPPO-1999.onnx",
+                "reward": 0.5975215159582369,
+                "creation_time": 1647024024.7617066,
+                "auxillary_file_paths": [
+                    "results\\RangedNerfRun1\\DirectorPPO\\DirectorPPO-1999.pt"
+                ]
+            },
+            {
+                "steps": 2604,
+                "file_path": "results\\RangedNerfRun1\\DirectorPPO\\DirectorPPO-2604.onnx",
+                "reward": 1.1241021989285946,
+                "creation_time": 1647024147.987482,
+                "auxillary_file_paths": [
+                    "results\\RangedNerfRun1\\DirectorPPO\\DirectorPPO-2604.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2604,
+            "file_path": "results\\RangedNerfRun1\\DirectorPPO.onnx",
+            "reward": 1.1241021989285946,
+            "creation_time": 1647024147.987482,
+            "auxillary_file_paths": [
+                "results\\RangedNerfRun1\\DirectorPPO\\DirectorPPO-2604.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
